@@ -1,0 +1,15 @@
+kidiklik_front_newsletter.newsletter_form:
+  path: '/newsletter.html'
+  defaults:
+    _form: '\Drupal\kidiklik_front_newsletter\Form\DefaultForm'
+    _title: 'Inscription à la newsletter'
+  requirements:
+    _access: 'TRUE'
+
+kidiklik_front_newsletter.default_controller_send:
+  path: '/kidiklik_front_newsletter/send'
+  defaults:
+    _controller: '\Drupal\kidiklik_front_newsletter\Controller\DefaultController::send'
+    _title: 'Send inscription'
+  requirements:
+    _permission: 'access content'

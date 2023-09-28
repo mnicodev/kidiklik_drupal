@@ -1,0 +1,11 @@
+name: 'kidiklik_migrate'
+type: module
+description: 'Migration kidiklik'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+#dependencies:
+#  - drupal:migrate
+#  - migrate_source_csv
+#  - migrate_plus
+version: '9.0'
